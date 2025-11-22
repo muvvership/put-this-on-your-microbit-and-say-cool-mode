@@ -33,7 +33,7 @@
  * 
  * - play wake-up words - tells it to respond to "hello robot" or whatever it is set to
  * 
- * - added an icon to make sure the "on start" block is working
+ * - added an icon to make sure the "on start" block is working.
  * 
  * FOREVER BLOCK:
  * 
@@ -42,6 +42,10 @@
  * - recognize it: true/false whether it recognizes the command
  * 
  * - if the result, stored as "get the result" is equal to one of our command words, do something. in this case, show an icon or clear the screen. You can check for multiple matches here.
+ * 
+ * Think about how you can use variables here to compare it to your stored math problem answer. 
+ * 
+ * MORE INFORMATION: https://wiki.dfrobot.com/SKU_SEN0539-EN_Gravity_Voice_Recognition_Module_I2C_UART#Tutorial%20on%20using%20MakeCode%20modules.
  */
 voiceRecognition.init()
 voiceRecognition.setVolume(4)
